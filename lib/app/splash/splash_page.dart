@@ -24,9 +24,26 @@ class SplashPage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 // Navigator.pushNamed(context, '/category');
-                Modular.to.pushNamed('/product');
+                Modular.to.pushNamed(
+                  '/category/product/Monitor_LG',
+                  arguments: 'Eduardo Alonso',
+                );
+              },
+              child: const Text('Product module dentro de Categoria'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Navigator.pushNamed(context, '/category');
+                Modular.to.pushNamed('/product/iphone');
               },
               child: const Text('Modulo Produto'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Navigator.pushNamed(context, '/category');
+                Modular.to.pushNamed('/product/xyz?name=JBL');
+              },
+              child: const Text('Produto 02'),
             )
           ],
         ),

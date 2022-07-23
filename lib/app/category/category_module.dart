@@ -1,5 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:modular/app/category/category_page.dart';
+import 'package:modular/app/product/product_module.dart';
 
 class CategoryModule extends Module {
   @override
@@ -10,5 +11,6 @@ class CategoryModule extends Module {
             category: args.data,
           ),
         ),
+        ModuleRoute('/product', module: ProductModule())
       ];
 }
