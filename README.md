@@ -10,7 +10,6 @@ Aplicação simples criada na Academia do Flutter para aprender Modular
 
    - [📖 Sobre o App](#Sobre-o-App)
    - [👨🏽‍💻 Desenvolvimento](#Sobre-o-desenvolvimento)
-   - [📱 Screenshots](#Screenshots)
    - [🛠 Ferramentas](#Ferramentas-utilizadas)
    - [📞 Contato](#-d%C3%BAvida-cr%C3%ADtica-elogio-ou-sugest%C3%A3o)
    - [📝 Licença](#LICENSE)
@@ -28,16 +27,9 @@ Aplicação simples criada na Academia do Flutter para aprender Modular
 
 </p>
 
-<h2>Screenshots</h2>
-
-EM BREVE
-<!-- <img src="https://github.com/DuhAlonso/dart_consumo_api/blob/main/screenshot/code1.png" width="400">
-
-<img src="https://github.com/DuhAlonso/dart_consumo_api/blob/main/screenshot/result.png" width="400">  -->
-
 <h2>Sobre o desenvolvimento</h2>
 <p>
-Em BREVE
+Achei bem fácil o aprendizado, é tudo bem claro e acredito que em mesmos projetos maiores seja tranquilo de ser implementado. Gostei da opção de importação de binds específicos e também das inúmeras possibilidades de passar argumentos nas rotas.  
 </p>
 
 <h2>Ferramentas utilizadas</h2>
