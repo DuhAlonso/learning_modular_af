@@ -20,6 +20,13 @@ class SplashPage extends StatelessWidget {
                 Modular.to.pushNamed('/category', arguments: 'Eduardo Alonso');
               },
               child: const Text('Modulo Categoria'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                // Navigator.pushNamed(context, '/category');
+                Modular.to.pushNamed('/product');
+              },
+              child: const Text('Modulo Produto'),
             )
           ],
         ),

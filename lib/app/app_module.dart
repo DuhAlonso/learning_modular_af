@@ -1,5 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:modular/app/category/category_module.dart';
+import 'package:modular/app/product/product_module.dart';
 import 'package:modular/app/splash/splash_page.dart';
 
 class AppModule extends Module {
@@ -14,5 +15,6 @@ class AppModule extends Module {
           child: (context, args) => const SplashPage(),
         ),
         ModuleRoute('/category', module: CategoryModule()),
+        ModuleRoute('/product', module: ProductModule()),
       ];
 }
